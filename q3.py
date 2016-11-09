@@ -28,4 +28,4 @@ print(allyears)
 #print(list(allyears.index))
 print(accomack)
 
-accomack.plot(kind ="line", x ="Year", y="Republican Share").get_figure().savefig('q3accomack.pdf')
+accomack.plot(kind ="line", x ="Year", y="Republican Share").get_figure().savefig('q3accomack.png')
